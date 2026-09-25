@@ -13,3 +13,7 @@ The page will contain the following:
 - Registration button
 - Tutor profiles
 - Background image
+
+## Picture:
+
+![Homepage_SmileSchool](image.png)
