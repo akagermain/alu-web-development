@@ -5,6 +5,10 @@
     font-family: 'source sans 3', sans-serif;
 }
 
+
+/* ------------- BODY PART ------------- */
+
+
 body {
     background-image: url('imagees/pexel2.jpg');
     background-size: cover;
@@ -17,6 +21,10 @@ body {
         inset 0 70px 40px -30px rgba(0, 0, 0, 0.8);
 }
 
+
+/* ------------- HEADER SECTION ------------- */
+
+
 .logo {
     color: #fff;
     margin-left: 50px;
@@ -28,6 +36,7 @@ body {
     border: 3px solid red;
     align-items: center;
     padding: 10px;
+    margin-bottom: 300px;
 }
 
 .menu a {
@@ -38,3 +47,15 @@ body {
     padding: 0 10px;
     font-weight: 700;
 }
+
+
+/* ------------- BANNER SECTION ------------- */
+
+
+.banner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
