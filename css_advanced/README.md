@@ -17,4 +17,4 @@ The page will contain the following:
 
  ## Picture:
 
- ![Homepage_SmileSchool](html_advanced/images/image.png)
+ ![Homepage_SmileSchool](/e/Class_ALU/GitHub_Repos/alu-web-development/html_advanced/images/image.png)
