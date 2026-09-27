@@ -117,3 +117,7 @@ body {
     justify-content: space-evenly;
     width: 100%;
 }
+
+.pros h3, p {
+    text-align: center;
+}
