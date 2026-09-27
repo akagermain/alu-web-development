@@ -16,4 +16,4 @@ The page will contain the following:
 
 ## Picture:
 
-![Homepage_SmileSchool](image.png)
+![Homepage_SmileSchool](images/image.png)

@@ -16,4 +16,5 @@ The page will contain the following:
  All of the elements have to be styled to produce an appealing web page.
 
  ## Picture:
- 
+
+ ![Homepage_SmileSchool](html_advanced/images/image.png)
