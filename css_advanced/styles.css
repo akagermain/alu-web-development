@@ -7,6 +7,13 @@
 }
 
 
+/* ------------- GENERAL ELEMENTS ------------- */
+
+span {
+    color: #c271ff;
+}
+
+
 /* ------------- BODY PART ------------- */
 
 
@@ -35,17 +42,17 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     align-items: center;
     padding: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .menu a {
     text-decoration: none;
     color: #fff;
     margin: 0 15px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 0 10px;
     font-weight: 700;
 }
@@ -81,8 +88,32 @@ body {
     border: #c271ff;
     background-color: #c271ff;
     transition: 0.3s;
+    margin-bottom: 50px;
 }
 
 .banner-button:hover {
     background-color: #cf92fe;
+}
+
+.pros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pros h2 {
+    margin-bottom: 100px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profiles-card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
