@@ -17,18 +17,6 @@ span {
 /* ------------- BODY PART ------------- */
 
 
-body {
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url('imagees/pexel2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(10px);
-    box-shadow: 
-        inset 0 -40px 40px -20px rgba(0, 0, 0, 0.8),
-        inset 0 70px 40px -30px rgba(0, 0, 0, 0.8);
-}
 
 
 /* ------------- HEADER SECTION ------------- */
@@ -42,54 +30,89 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    /* border: 3px solid red; */
+    
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 150px;
+    position: absolute;
+    
+    z-index: 10;
+    width: 100%;
 }
 
-/* .header img {
-    min-height: 100vh;
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(10px);
-    box-shadow: 
-        inset 0 -40px 40px -20px rgba(0, 0, 0, 0.8),
-        inset 0 70px 40px -30px rgba(0, 0, 0, 0.8);
-} */
+
 
 .menu a {
     text-decoration: none;
     color: #fff;
     margin: 0 15px;
-    /* border: 1px solid blue; */
     padding: 0 10px;
     font-weight: 700;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.menu a:hover {
+    border-radius: 15px;
+    background-color: #c271ff;
+    border: #c271ff;
 }
 
 
 /* ------------- BANNER SECTION ------------- */
 
+.banner {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('imagees/pexel2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+    
+}
 
+.banner::before {
+    content: "";
+    position: absolute;
+    top: -10px; right: -10px; bottom: -10px; left: -10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagees/pexel2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    z-index: -1;
+}
 .banner-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
+    
 }
 
 .banner-head {
     font-weight: 700;
     font-size: 120px;
     line-height: 100%;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .banner-paragraph {
     display: flex;
     gap: 50px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .banner-button {
@@ -101,6 +124,12 @@ body {
     background-color: #c271ff;
     transition: 0.3s;
     margin-bottom: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.banner-card a {
+    padding-top: 40px;
 }
 
 .banner-button:hover {
@@ -112,10 +141,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .pros h2 {
     margin-bottom: 100px;
+    font-size: 36px;
 }
 
 .profile img {
