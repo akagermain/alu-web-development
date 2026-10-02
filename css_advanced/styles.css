@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'source sans 3', sans-serif;
-    color: #fff;
+    /* color: #fff; */
 }
 
 
@@ -213,3 +213,70 @@ span {
 
 
 /* ------------- VIDEO SECTION ------------- */
+
+
+.videos {
+    margin-top: 30px;
+    color: #000;
+    
+}
+
+.videos-section h1 {
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+}
+
+.videos-section span {
+    font-weight: 700;
+}
+
+.main-video-block {
+    display: flex;
+    gap: 10px;
+}
+
+.block-content {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+/* .video-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+} */
+
+.video-title {
+    text-align: center;
+}
+
+.author-block {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 10px;
+}
+
+.author-img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.rating-block {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-name, .video-duration {
+    color: #c271ff;
+}
